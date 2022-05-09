@@ -7,6 +7,7 @@ lazy val root = (project in file("."))
     name := "shared_apps"
   )
 
+lazy val platformscala = project
 lazy val scalalib = project
 lazy val issues = project
 lazy val actions = project

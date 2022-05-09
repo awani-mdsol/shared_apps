@@ -1,0 +1,1 @@
+// check ResultConfig return type in ConfigMana with type types and replicate that.
