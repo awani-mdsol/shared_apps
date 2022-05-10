@@ -7,6 +7,11 @@ lazy val root = (project in file("."))
     name := "shared_apps"
   )
 
+ThisBuild / libraryDependencies  ++= Seq(
+
+  "org.typelevel" %% "cats-core" % "2.7.0"
+)
+
 lazy val platformscala = project
 lazy val scalalib = project
 lazy val issues = project
